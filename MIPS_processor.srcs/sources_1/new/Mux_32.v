@@ -1,3 +1,13 @@
+///////////////////////////////////////////////////////////////////////////////
+// Module Name: Mux_32
+// Description: 32-bit 32-to-1 Multiplexer
+//
+// Ports: 
+//    - X0 ~ X31: 32-bit data input
+//    - Y: 32-bit output
+//    - Sel: 5-bit select input
+///////////////////////////////////////////////////////////////////////////////
+
 module Mux_32(
     output reg [31:0] Y,
     input [31:0] X0, X1, X2, X3, X4, X5, X6, X7, X8,

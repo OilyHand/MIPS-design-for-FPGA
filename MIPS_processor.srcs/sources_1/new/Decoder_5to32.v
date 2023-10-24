@@ -1,3 +1,13 @@
+///////////////////////////////////////////////////////////////////////////////
+// Module Name: Decoder_5to32
+// Description: 5-to-32 bit decoder with Enable
+//
+// Ports: 
+//    - Y: 32-bit one hot encoded output
+//    - X: 5-bit input
+//    - En: Enable input
+///////////////////////////////////////////////////////////////////////////////
+
 module Decoder_5to32(
     output [31:0] Y,
     input [4:0] X,
