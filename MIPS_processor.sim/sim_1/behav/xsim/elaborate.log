@@ -1,16 +1,102 @@
 Vivado Simulator v2022.2
 Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_SignExt_behav xil_defaultlib.tb_SignExt xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'RR1' [C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sim_1/new/test.v:8]
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/SignExt.v" Line 1. Module SignExt doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/SignExt.v" Line 1. Module SignExt doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/RegisterFile.v" Line 14. Module RegisterFile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Decoder_5to32.v" Line 11. Module Decoder_5to32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Decoder_2to4.v" Line 1. Module Decoder_2to4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Decoder_3to8.v" Line 1. Module Decoder_3to8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Decoder_3to8.v" Line 1. Module Decoder_3to8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Decoder_3to8.v" Line 1. Module Decoder_3to8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Decoder_3to8.v" Line 1. Module Decoder_3to8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Mux_32.v" Line 11. Module Mux_32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Mux_32.v" Line 11. Module Mux_32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/RegisterFile.v" Line 14. Module RegisterFile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Decoder_5to32.v" Line 11. Module Decoder_5to32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Decoder_2to4.v" Line 1. Module Decoder_2to4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Decoder_3to8.v" Line 1. Module Decoder_3to8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Decoder_3to8.v" Line 1. Module Decoder_3to8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Decoder_3to8.v" Line 1. Module Decoder_3to8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Decoder_3to8.v" Line 1. Module Decoder_3to8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Mux_32.v" Line 11. Module Mux_32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Mux_32.v" Line 11. Module Mux_32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v" Line 12. Module dff doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.SignExt
-Compiling module xil_defaultlib.tb_SignExt
+Compiling module xil_defaultlib.Decoder_2to4
+Compiling module xil_defaultlib.Decoder_3to8
+Compiling module xil_defaultlib.Decoder_5to32
+Compiling module xil_defaultlib.Mux_32
+Compiling module xil_defaultlib.dff
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.test
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot tb_SignExt_behav
+Built simulation snapshot test_behav

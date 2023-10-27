@@ -15,6 +15,5 @@ module dff(
     input clk, En
 );
     always @(posedge clk)
-      if(En)
-        Q <= D;
+      if(En) Q <= D;
 endmodule

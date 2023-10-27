@@ -1,2 +1,2 @@
 Time resolution is 1 ps
-$stop called at time : 60 ns : File "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sim_1/new/tb_SignExt.v" Line 13
+$stop called at time : 240 ns : File "C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sim_1/new/test.v" Line 46

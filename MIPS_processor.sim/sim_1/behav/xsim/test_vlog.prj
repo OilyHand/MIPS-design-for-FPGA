@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MIPS_processor.srcs/sources_1/new/Decoder_2to4.v" \
+"../../../../MIPS_processor.srcs/sources_1/new/Decoder_3to8.v" \
+"../../../../MIPS_processor.srcs/sources_1/new/Decoder_5to32.v" \
+"../../../../MIPS_processor.srcs/sources_1/new/Mux_32.v" \
+"../../../../MIPS_processor.srcs/sources_1/new/RegisterFile.v" \
+"../../../../MIPS_processor.srcs/sources_1/new/dff.v" \
+"../../../../MIPS_processor.srcs/sim_1/new/test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

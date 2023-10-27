@@ -4,4 +4,11 @@ Oct 14 2022
 05:20:55
 C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
 C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sim_1/new/tb_SignExt.v,1698134675,verilog,,,,tb_SignExt,,,,,,,,
+C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sim_1/new/test.v,1698417556,verilog,,,,test,,,,,,,,
+C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Decoder_2to4.v,1698107616,verilog,,C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Decoder_3to8.v,,Decoder_2to4,,,,,,,,
+C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Decoder_3to8.v,1698107595,verilog,,C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Decoder_5to32.v,,Decoder_3to8,,,,,,,,
+C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Decoder_5to32.v,1698135924,verilog,,C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Mux_32.v,,Decoder_5to32,,,,,,,,
+C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/Mux_32.v,1698278981,verilog,,C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/RegisterFile.v,,Mux_32,,,,,,,,
+C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/RegisterFile.v,1698419535,verilog,,C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/dff.v,,RegisterFile,,,,,,,,
 C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sources_1/new/SignExt.v,1698134768,verilog,,C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sim_1/new/tb_SignExt.v,,SignExt,,,,,,,,
+,,,,C:/Users/sonji/projects/DSD_project/MIPS_processor/MIPS_processor.srcs/sim_1/new/test.v,,dff,,,,,,,,
